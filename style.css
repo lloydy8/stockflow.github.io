@@ -7,9 +7,14 @@
 
 body {
     background-color: #eff2f3;
+    background-image: url(/background.png);
+    font-size: 20px ;
+    background-size:     cover;                      
+   
   }
 
 
+  /* HEADER Section! */
 
 .header{
     width: 100%;
@@ -50,58 +55,815 @@ body {
     font-weight: 800;
 }
 
-.middle{
-    background-color: white;
-    width:70%;
-    height: 100%;
-    margin: auto;
-    display: block;
-    border-left: 5px double rgb(157, 161, 157);
-    border-right: 5px double rgb(157, 161, 157);
-    padding: 10px;
+
+/* IFrame Section! */
+
+
+.wrapper {
+    width:80%;
+    max-width:2000px;
+    margin:0 auto;
+    background-color:#cfcfcf;
+    border:1px solid rgb(0, 0, 0);
+  }
+  
+  .h_iframe {
+    position:relative;
+    padding-top: 1500px;
+    
+  }
+ 
+  .h_iframe iframe {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+  }
+
+
+
+
+
+/* BOX Section! */
+
+  .color-box{
+    background-color:  #2a2727;
+    width: 80px;
+    height: 25px;
+    position: absolute;
+    top: 1475px;
+    right: 0px;
 }
 
-.middle h1{
-    font-family: 'Playfair Display';font-size: 30px;
+
+.color-box1{
+    background-color: #1010102b;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 27px;
+    left: -20px;
+  }
+
+
+  .color-box2{
+    background-color:#1010102b;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 47px;
+    left: -20px;
+  }
+  .color-box3{
+    background-color:#1010102b;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 67px;
+    left: -20px;
+  }
+  .color-box4{
+    background-color:#1010102b;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 88px;
+    left: -20px;
+  }
+  .color-box5{
+    background-color:#1010102b;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 109px;
+    left: -20px;
+  }
+  .color-box6{
+    background-color: #1010102b;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 130px;
+    left: -20px;
+  }
+  .color-box7{
+    background-color:#1010102b;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 151px;
+    left: -20px;
+  }
+  .color-box8{
+    background-color: #1010102b;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 172px;
+    left: -20px;
+  }
+  .color-box9{
+    background-color: #1010102b;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 193px;
+    left: -20px;
+  }
+  .color-box10{
+    background-color: #1010102b;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 215px;
+    left: -20px;
+  }
+  .color-box11{
+    background-color: #1010102b;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 236px;
+    left: -20px;
+  }
+  .color-box12{
+    background-color:#1010102b;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 258px;
+    left: -20px;
+  }
+  .color-box13{
+    background-color: #1010102b;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 278px;
+    left: -20px;
+  }
+
+  .color-box13b{
+    background-color: #1010102b;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 298px;
+    left: -20px;
+  }
+
+
+
+  .color-box14{
+    background-color:#1010102b;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 465px;
+    left: -20px;
+  }
+
+
+  .color-box15{
+    background-color: #1010102b;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 765px;
+    left: -20px;
+  }
+  .color-box16{
+    background-color:#1010102b;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 785px;
+    left: -20px;
+  }
+  .color-box17{
+    background-color: #1010102b;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 806px;
+    left: -20px;
+  }
+  .color-box18{
+    background-color: #1010102b;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 827px;
+    left: -20px;
+  }
+  .color-box19{
+    background-color: #1010102b;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 847px;
+    left: -20px;
+  }
+
+
+
+/* TOOLTIP Section */
+
+/* BOX 1 Section */
+
+.color-box1 .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
     text-align: center;
-    border: 3px solid #101010;
-}
+    padding: 5px 0;
+    border-radius: 6px;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .color-box1:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  .color-box1 .tooltiptext {
+    top: -5px;
+    right: 105%;
+  }
 
 
-iframe {
-    aspect-ratio: 16 / 9;
-	height: 90%;
-	width: 90%;
-    display:block;
-    margin: auto;
-    transform: scale(0.8)
-}
+/* BOX 2 Section */
 
-/*
-iframe {
-    width: 1500px;
-    height: 1070px;
-    margin: auto;  
+  .color-box2 .tooltiptext2 {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .color-box2:hover .tooltiptext2 {
+    visibility: visible;
+  }
+
+  .color-box2 .tooltiptext2 {
+    top: -5px;
+    right: 105%;
+  }
+
+
+/* BOX 3 Section */
+
+
+  .color-box3 .tooltiptext3 {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .color-box3:hover .tooltiptext3 {
+    visibility: visible;
+  }
+
+  .color-box3 .tooltiptext3 {
+    top: -5px;
+    right: 105%;
+  }
+
+
+/* BOX 4 Section */
+
+
+.color-box4 .tooltiptext4 {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .color-box4:hover .tooltiptext4 {
+    visibility: visible;
+  }
+
+  .color-box4 .tooltiptext4 {
+    top: -5px;
+    right: 105%;
+  }
+
+
+/* BOX 5 Section */
+
+
+.color-box5 .tooltiptext5 {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .color-box5:hover .tooltiptext5 {
+    visibility: visible;
+  }
+
+  .color-box5 .tooltiptext5 {
+    top: -5px;
+    right: 105%;
+  }
+
+
+/* BOX 6 Section */
+
+
+.color-box6 .tooltiptext6 {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .color-box6:hover .tooltiptext6 {
+    visibility: visible;
+  }
+
+  .color-box6 .tooltiptext6 {
+    top: -5px;
+    right: 105%;
+  }
+
+
+/* BOX 7 Section */
+
+
+.color-box7 .tooltiptext7 {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .color-box7:hover .tooltiptext7 {
+    visibility: visible;
+  }
+
+  .color-box7 .tooltiptext7 {
+    top: -5px;
+    right: 105%;
+  }
+
+
+/* BOX 8 Section */
+
+
+.color-box8 .tooltiptext8 {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .color-box8:hover .tooltiptext8 {
+    visibility: visible;
+  }
+
+  .color-box8 .tooltiptext8 {
+    top: -5px;
+    right: 105%;
+  }
+
+
+  /* BOX 9 Section */
+
+
+.color-box9 .tooltiptext9 {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .color-box9:hover .tooltiptext9 {
+    visibility: visible;
+  }
+
+  .color-box9 .tooltiptext9 {
+    top: -5px;
+    right: 105%;
+  }
+
+
+ /* BOX 10 Section */
+
+
+ .color-box10 .tooltiptext10 {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .color-box10:hover .tooltiptext10 {
+    visibility: visible;
+  }
+
+  .color-box10 .tooltiptext10 {
+    top: -5px;
+    right: 105%;
+  }
+
+
+ /* BOX 11 Section */
+
+
+ .color-box11 .tooltiptext11 {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .color-box11:hover .tooltiptext11 {
+    visibility: visible;
+  }
+
+  .color-box11 .tooltiptext11 {
+    top: -5px;
+    right: 105%;
+  }
+
+
+   /* BOX 12 Section */
+
+
+ .color-box12 .tooltiptext12 {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .color-box12:hover .tooltiptext12 {
+    visibility: visible;
+  }
+
+  .color-box12 .tooltiptext12 {
+    top: -5px;
+    right: 105%;
+  }
+
+
+
+   /* BOX 13 Section */
+
+
+   .color-box13 .tooltiptext13 {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .color-box13:hover .tooltiptext13 {
+    visibility: visible;
+  }
+
+  .color-box13 .tooltiptext13 {
+    top: -5px;
+    right: 105%;
+  }
+
+
+
+     /* BOX 13b Section */
+
+
+     .color-box13b .tooltiptext13b {
+        visibility: hidden;
+        width: 120px;
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        padding: 5px 0;
+        border-radius: 6px;
+       
+        /* Position the tooltip text - see examples below! */
+        position: absolute;
+        z-index: 1;
+      }
+      
+      /* Show the tooltip text when you mouse over the tooltip container */
+      .color-box13b:hover .tooltiptext13b {
+        visibility: visible;
+      }
+    
+      .color-box13b .tooltiptext13b {
+        top: -5px;
+        right: 105%;
+      }
+
+
+
+     /* BOX 14 Section */
+
+
+     .color-box14 .tooltiptext14 {
+        visibility: hidden;
+        width: 120px;
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        padding: 5px 0;
+        border-radius: 6px;
+       
+        /* Position the tooltip text - see examples below! */
+        position: absolute;
+        z-index: 1;
+      }
+      
+      /* Show the tooltip text when you mouse over the tooltip container */
+      .color-box14:hover .tooltiptext14 {
+        visibility: visible;
+      }
+    
+      .color-box14 .tooltiptext14 {
+        top: -5px;
+        right: 105%;
+      }
+
+        /* BOX 15 Section */
+
+
+     .color-box15 .tooltiptext15 {
+        visibility: hidden;
+        width: 120px;
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        padding: 5px 0;
+        border-radius: 6px;
+       
+        /* Position the tooltip text - see examples below! */
+        position: absolute;
+        z-index: 1;
+      }
+      
+      /* Show the tooltip text when you mouse over the tooltip container */
+      .color-box15:hover .tooltiptext15 {
+        visibility: visible;
+      }
+    
+      .color-box15 .tooltiptext15 {
+        top: -5px;
+        right: 105%;
+      }
+
+        /* BOX 16 Section */
+
+
+        .color-box16 .tooltiptext16 {
+            visibility: hidden;
+            width: 120px;
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            padding: 5px 0;
+            border-radius: 6px;
+           
+            /* Position the tooltip text - see examples below! */
+            position: absolute;
+            z-index: 1;
+          }
+          
+          /* Show the tooltip text when you mouse over the tooltip container */
+          .color-box16:hover .tooltiptext16 {
+            visibility: visible;
+          }
+        
+          .color-box16 .tooltiptext16 {
+            top: -5px;
+            right: 105%;
+          }
+
+
+          /* BOX 17 Section */
+
+
+          .color-box17 .tooltiptext17 {
+            visibility: hidden;
+            width: 120px;
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            padding: 5px 0;
+            border-radius: 6px;
+           
+            /* Position the tooltip text - see examples below! */
+            position: absolute;
+            z-index: 1;
+          }
+          
+          /* Show the tooltip text when you mouse over the tooltip container */
+          .color-box17:hover .tooltiptext17 {
+            visibility: visible;
+          }
+        
+          .color-box17 .tooltiptext17 {
+            top: -5px;
+            right: 105%;
+          }
+
+
+         /* BOX 18 Section */
+
+
+         .color-box18 .tooltiptext18 {
+            visibility: hidden;
+            width: 120px;
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            padding: 5px 0;
+            border-radius: 6px;
+           
+            /* Position the tooltip text - see examples below! */
+            position: absolute;
+            z-index: 1;
+          }
+          
+          /* Show the tooltip text when you mouse over the tooltip container */
+          .color-box18:hover .tooltiptext18 {
+            visibility: visible;
+          }
+        
+          .color-box18 .tooltiptext18 {
+            top: -5px;
+            right: 105%;
+          }
+
+
+         /* BOX 19 Section */
+
+
+         .color-box19 .tooltiptext19 {
+            visibility: hidden;
+            width: 120px;
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            padding: 5px 0;
+            border-radius: 6px;
+           
+            /* Position the tooltip text - see examples below! */
+            position: absolute;
+            z-index: 1;
+          }
+          
+          /* Show the tooltip text when you mouse over the tooltip container */
+          .color-box19:hover .tooltiptext19 {
+            visibility: visible;
+          }
+        
+          .color-box19 .tooltiptext19 {
+            top: -5px;
+            right: 105%;
+          }
+
+    
+
+
+/* Footer Section! */
+
+
+
+.footer{
+    width: 100%;
+    height: 80px;
     display: block;
-    transform: scale(1);
+    background-color:  #2a2727;
+    border-bottom: 5px groove  #2a2727;
+}
+
+.inner_footer{
+    width: 90%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    background-color: #2a2727;
 
 }
 
-@media (max-width:2000px){
-
-    iframe{
-        width: 1500px;
-        height: 1070px;
-        margin: auto;  
-        display: block;
-        transform: scale(0.5);
-    }
-
+.footer_container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 
 
-
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
 
 
 
