@@ -5,11 +5,16 @@
     text-decoration: none;
 }
 
+.zoom
+{
+    zoom: 75%;
+}
+
 body {
     background-color: #eff2f3;
     background-image: url(/background.png);
     font-size: 20px ;
-    -moz-transform: scale(0.67);
+    -moz-transform: scale(0.75);
 
   }
 
