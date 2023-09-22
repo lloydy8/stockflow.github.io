@@ -9,7 +9,7 @@ body {
     background-color: #eff2f3;
     background-image: url(/background.png);
     font-size: 20px ;
-    background-size:     cover;                      
+                    
    
   }
 
@@ -864,12 +864,6 @@ img{
     max-width: 100%;
     max-height: 100%;
 }
-
-
-
-
-
-
 
 
 
