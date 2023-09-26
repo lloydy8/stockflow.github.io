@@ -11,6 +11,8 @@ body {
     background-color: #eff2f3;
     background-image: url(./background.png);
     font-size: 16px ;
+    min-height: 100%;
+    position: relative;
   }
 
 
@@ -48,6 +50,7 @@ body {
     font-family: 'Montserrat';
     font-size: 46px;
     font-weight: 200;
+    overflow: hidden;
 
 }
 
@@ -841,6 +844,9 @@ body {
     display: block;
     background-color:  #2a2727;
     border-bottom: 5px groove  #2a2727;
+    position: absolute;
+    bottom:0;
+    left:0;
 }
 
 .inner_footer{
