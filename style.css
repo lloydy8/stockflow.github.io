@@ -275,7 +275,7 @@ body {
    height: 200px;
    position: absolute;
    top: 380px;
-   left: -20px;
+   left: -45px;
    width: 600px;
   }
 
@@ -284,7 +284,8 @@ body {
     font-family: 'Montserrat';
     font-weight: bold;
     animation: blinkingText 2s infinite;
-    font-size: 25px;
+    font-size: 22px;
+    overflow: hidden;
   }
 
 
