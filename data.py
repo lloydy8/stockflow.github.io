@@ -1,11 +1,7 @@
 import mercury as mr
 from datetime import datetime
 import pandas as pd
-import matplotlib.pyplot as plt
-from matplotlib.ticker import MaxNLocator
 import numpy as np
-import ipywidgets as widgets
-from IPython.display import display
 from statistics import mean
 import plotly.graph_objs as go
 
